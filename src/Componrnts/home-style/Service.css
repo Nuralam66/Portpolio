@@ -1,0 +1,44 @@
+.service-container{
+    background-color: #2a2a35;
+    padding: 75px 0px;
+  
+    
+}
+
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+     margin-left: 7.41%;
+   
+}
+.text-container h2{
+    color: #858792;
+    font-size: 18px;
+}
+.text-container h1{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.card-container{
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 7.41%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+     padding: 40px;
+     background-color: #21232c;
+    
+}
+.card h2{
+    font-size: 28px;
+    color: #ffffff;
+}
+.card p {
+    color:#858792;
+    font-size: 16px;
+}

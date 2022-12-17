@@ -1,0 +1,33 @@
+.banner-container{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #23242d;
+  padding-top: 50px;
+  
+}
+.info-container h2{
+    font-size: 36px;
+    color: #ffffff;
+}
+.info-container h1{
+    font-size: 60px;
+    color: #ffffff;
+}
+.info-container p{
+    color:#858792;
+    font-size: 20px;
+}
+.info-container button{
+    width: 202px;
+    height: 60px;
+    border: 1px solid #3b3d49;
+    background-color: rgba(0,0,0,0);
+    color: rgb(255,255,255);
+    border-radius: 25px;
+    font-size: 15px;
+}
+.info-container button:hover{
+    background-color:rgb(255,255,255);
+    color:#3b3d49;
+}
